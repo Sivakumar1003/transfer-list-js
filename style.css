@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+#head {
+    background-color: #b8d2e4;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    border: 2px solid;
+    display: flex;
+    gap: 20px;
+}
+
+#box-one,
+#box-two {
+    width: 40%;
+    padding: 1rem;
+}
+
+.move {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    gap: 5px;
+    padding: 1rem;
+    border: 2px solid;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+button {
+    width: 50%;
+}
+
+div{
+    padding: 5px;
+}
